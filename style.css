@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #c51d34;
+
+    color: #000;
+}
+
+header {
+    font-size: large;
+    background-color: #000;
+    border-radius: 10px;
+    margin: 20px 20px;
+    color: white;
+} 
+
+
+.nav-link {
+  
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 30px;
+    
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+
+.navbar-collapse collaps{
+    color: #ffffff;
+}
+
+.alert {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    color:#000;
+    background-color: #ffffff;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    padding: 20px;
+    
+}
+
+.information img {
+    border-radius: 15px;
+    border: 15px solid #c51d34;
+}
+
+
+.quote {
+    margin: 0;
+    background: #ffffff;
+    padding: 1em;
+    border-radius: 1em;
+  }
+
+.quote figcaption,
+.quote q {
+    margin: 1em;
+  }
+
+.text-information {
+    width: 40%
+    
+}
+
+.text-information img {
+    width: 100%;
+}
+
+
+#block h3 {
+  text-align: center;
+}
+
+
+.container h1 {
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.map {
+    margin: 20px 0;
+}
+
+iframe {
+    width: 60vw;
+    height: 60vh;
+}
+
+footer {
+    background-color: #000; 
+    color: #ffffff; 
+    padding: 20px; 
+    text-align: center;
+}
+  
+footer h3 {
+    margin-bottom: 30px; 
+  }
+  
+footer ul {
+    list-style: none; 
+    padding: 0;
+  }
+  
+footer li {
+    margin-bottom: 5px;
+  }
+  
+footer a {
+    color: #ffffff; 
+    text-decoration: none; 
+    transition: color 0.4s ease; 
+  }
+  
+
+footer a:hover {
+    color: #ffffff; 
+  }
+
+
+.footer-container{
+    text-align: center;
+}
+
+.choice_route {
+    margin: 20px;
+}
+
+.choice_route h2,
+.choice_route input,
+.choice_route button {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 40%;
+}
+
+table, th, td {
+    border: 1px black solid;
+    background-color: #ffffff;
+}
+
+.table-center {
+    display: flex;
+    justify-content: center;
+}
+
+#roads {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+#roads h2, #roads h3 {
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+#roads .container {
+    margin-bottom: 20px;
+  }
+  
+#roads .form-control,
+#roads .form-select {
+    width: 100%;
+  }
+  
+#roads .table-container, #roads .paginat {
+    margin-bottom: 20px;
+  }
+  
+#roads .table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+#roads .table th,
+#roads .table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black;
+  }
+  
+#exampleModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050;
+  }
+  
+#exampleModal .modal-content {
+    border-radius: 10px;
+  }
+  
+#exampleModal .modal-header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #000;
+    background-color: #ffffff;
+  }
+  
+#exampleModal .modal-body {
+    padding: 20px;
+    color: #000;
+  }
+  
+#exampleModal .modal-footer {
+    padding: 15px 20px;
+    border-top: 1px solid #000;
+    background-color: #ffffff;
+  }
+  
+#exampleModal .modal-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0;
+    color: #000;
+  }
+
+#map {
+  padding: 20px 20px 20% 20%;
+}
